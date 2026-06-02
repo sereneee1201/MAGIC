@@ -8,10 +8,6 @@
 
 [Setup](#-setup) | [Run Generation](#-run-magic-for-generation) | [Run Evaluation](#-run-magic-for-evaluation) | [Acknowledgement](#-acknowledgement)
 
-<div align=center>
-<img src='https://magic.github.io/magic_pipeline.png' width=100%>
-</div>
-
 ### 🛠️ Setup
 1. Install conda package
 
@@ -35,6 +31,9 @@ download-objathor_features
 3. Install [Blender](https://www.blender.org/download/) and [Unity](https://www.blender.org/download/) (version 6000.0.24f1 was used in development)
 
 ### 🔮 Run MAGIC for generation
+<div align=center>
+<img src='images/transition_pipeline.png' width=100%>
+</div>
 
 ```text
 python magic/pipeline.py -p PROMPT [-i CASE_IDX] [-c CONFIG] [-s FLAGS]
@@ -54,6 +53,9 @@ python magic/pipeline.py -p "a living room connected to a bedroom" -i 1 -c "conf
 ```
 
 ### 🧪 Run MAGIC for evaluation
+<div align=center>
+<img src='images/eval_pipeline.png' width=100%>
+</div>
 
 ```text
 python eval_agent/eval_pipeline.py -i CASE_IDX [-o OUT] [-c CONFIG] [-v VERSION] [-t GT_DIR]

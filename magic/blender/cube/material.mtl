@@ -1,0 +1,7 @@
+# Sources: https://github.com/garykac/3d-cubes, https://gist.github.com/noonat/1131091
+newmtl cube
+illum 2
+Ks 0.0 0.0 0.0
+Ns 10.0
+map_Ka albedo.png
+map_Kd albedo.png

@@ -1,0 +1,40 @@
+[
+  {
+    "case_1": {
+      "number_of_scenes": 2,
+      "details": {
+        "1": {
+          "scene_type": "lobby",
+          "style": "French",
+          "object injection": [
+            "seating clusters"
+          ],
+          "additional constraints": [
+            "non-slip flooring"
+          ]
+        },
+        "2": {
+          "scene_type": "fastfood restaurant",
+          "style": "Southwestern",
+          "object injection": [
+            "seating booths"
+          ],
+          "additional constraints": [
+            "bright lighting"
+          ]
+        }
+      }
+    },
+    "transition": {
+      "transition_graph": [
+        {
+          "from": "lobby",
+          "to": "fastfood restaurant",
+          "type": "door",
+          "effect": "IrisWipe",
+          "position": "east"
+        }
+      ]
+    }
+  }
+]

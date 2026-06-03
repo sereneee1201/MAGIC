@@ -35,6 +35,8 @@ download-objathor_features
 <img src='images/transition_pipeline.png' width=100%>
 </div>
 
+4. In the config folder, create config.yaml referencing config_example.yaml and store the OPENAI API key
+
 ```text
 python magic/pipeline.py -p PROMPT [-i CASE_IDX] [-c CONFIG] [-s FLAGS]
 

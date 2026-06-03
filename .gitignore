@@ -1,6 +1,5 @@
 # User-defined
-configs/
-configs/**
+config.yaml
 objathor-assets.zip
 objathor-assets/
 objathor-assets/**

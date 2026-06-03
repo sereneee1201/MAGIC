@@ -1,14 +1,14 @@
-## 🪄✨ MAGIC: Multi‑scene Automated Gameworlds Generation with Intelligent Connectivity via Large Language Models 🎮🤖
+# 🪄✨ MAGIC: Multi‑scene Automated Gameworlds Generation with Intelligent Connectivity via Large Language Models 🎮🤖
 
 [Tsz Hei Fan](https://github.com/thisishei), 
 [Choi Wing Fung](https://github.com/sereneee1201),
 [Yuxuan Wan](https://github.com/yxwan123),
-[Shuqing Li](), 
-[Michael R. Lyu]()
+[Shuqing Li](https://shuqing-li.github.io/), 
+[Michael R. Lyu](https://www.cse.cuhk.edu.hk/lyu/home)
 
 [Setup](#-setup) | [Run Generation](#-run-magic-for-generation) | [Run Evaluation](#-run-magic-for-evaluation) | [Acknowledgement](#-acknowledgement)
 
-### 🛠️ Setup
+## 🛠️ Setup
 1. Install conda package
 
 ```bash
@@ -30,7 +30,7 @@ download-objathor_features
 
 3. Install [Blender](https://www.blender.org/download/) and [Unity](https://www.blender.org/download/) (version 6000.0.24f1 was used in development)
 
-### 🔮 Run MAGIC for generation
+## 🔮 Run MAGIC for generation
 <div align=center>
 <img src='images/transition_pipeline.png' width=100%>
 </div>
@@ -52,7 +52,7 @@ Output will be saved in test_cases/case_<CASE_IDX>/.
 python magic/pipeline.py -p "a living room connected to a bedroom" -i 1 -c "configs/config.yaml" -s "[1, 1, 1, 1, 1]"
 ```
 
-### 🧪 Run MAGIC for evaluation
+## 🧪 Run MAGIC for evaluation
 <div align=center>
 <img src='images/eval_pipeline.png' width=100%>
 </div>
@@ -77,5 +77,5 @@ python eval_agent/eval_pipeline.py -i 1 -o EvalOutput -c "configs/config.yaml" -
 
 **Note:** The multi-scene transition benchmark (100 cases) is available upon request.
 
-### 🙏 Acknowledgement
-This project incorporates a portion of code from [Scenethesis](https://github.com/cshizhe/vil3dref).
+## 🙏 Acknowledgement
+This project incorporates a portion of code from [Scenethesis](https://arxiv.org/abs/2507.18625).

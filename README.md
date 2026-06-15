@@ -30,12 +30,12 @@ download-objathor_features
 
 3. Install [Blender](https://www.blender.org/download/) and [Unity](https://www.blender.org/download/) (version 6000.0.24f1 was used in development)
 
+4. In the config folder, create config.yaml referencing config_example.yaml and store the OPENAI API key
+
 ## 🔮 Run MAGIC for generation
 <div align=center>
 <img src='images/transition_pipeline.png' width=100%>
 </div>
-
-4. In the config folder, create config.yaml referencing config_example.yaml and store the OPENAI API key
 
 ```text
 python magic/pipeline.py -p PROMPT [-i CASE_IDX] [-c CONFIG] [-s FLAGS]

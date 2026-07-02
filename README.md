@@ -1,11 +1,5 @@
 # 🪄✨ MAGIC: Multi‑scene Automated Gameworlds Generation with Intelligent Connectivity via Large Language Models 🎮🤖
 
-[Tsz Hei Fan](https://github.com/thisishei), 
-[Choi Wing Fung](https://github.com/sereneee1201),
-[Yuxuan Wan](https://github.com/yxwan123),
-[Shuqing Li](https://shuqing-li.github.io/), 
-[Michael R. Lyu](https://www.cse.cuhk.edu.hk/lyu/home)
-
 [Setup](#-setup) | [Run Generation](#-run-magic-for-generation) | [Run Evaluation](#-run-magic-for-evaluation) | [Acknowledgement](#-acknowledgement)
 
 ## 🛠️ Setup
